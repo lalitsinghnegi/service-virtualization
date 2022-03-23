@@ -1,0 +1,18 @@
+.chart{
+    margin: 2% 1% 1%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 2px;
+    font-family: "Open Sans","Segoe UI",Tahoma,sans-serif;
+    font-size: 14px;
+    border: 1px solid #e6e6e6 !important;
+    border-radius: 10px;
+}
+
+.mb-n1 {
+    margin-top: -0.4rem !important;
+  }
+
+.filter{
+    margin-right: 10px;
+}

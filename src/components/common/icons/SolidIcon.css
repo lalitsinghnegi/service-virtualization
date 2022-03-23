@@ -1,0 +1,18 @@
+.solid-icon .clip,
+.solid-icon i {
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+}
+
+.solid-icon .clip a,
+.solid-icon .clip i {
+    color: transparent !important;
+}
+
+.solid-icon .fa {
+    display: block;
+}
+
+.td-icon-xs {
+    font-size: 2rem !important;
+}

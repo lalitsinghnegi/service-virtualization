@@ -1,0 +1,22 @@
+#swal-cust-err-box {
+  border-top: 2px solid lightgray;
+  /* background-color: yellow; */
+  margin-top: 20px;
+}
+
+#swal-cust-err-subtitle {
+  margin-top: 25px;
+  font-size: 1.5em;
+  font-family: "Open Sans", -apple-system, system-ui, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+
+#swal-cust-err-message {
+  color: rgb(216, 0, 12);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+  padding-bottom: 20px;
+}

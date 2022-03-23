@@ -1,0 +1,33 @@
+
+.filter-left {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.healthPod{
+    height:600px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.healthPodNoData{
+    height:200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.healthPodNoData .nodataMessage{
+    height:100px;
+    text-align: center; 
+    margin-top: 50px;
+    font-size:0.875rem;
+}
+.healthFilter {
+    width:250px;
+    margin-right: 10px;
+}
+
+.greentick {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-image: url('../images/greentick.svg');
+}

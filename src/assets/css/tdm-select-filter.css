@@ -1,0 +1,9 @@
+.filter-table-row input:focus {
+  box-shadow: none !important;
+  /* Beat metro at it's own game! */
+}
+
+.filter-table-row input[type="text"] {
+  line-height: 19.2px;
+  height: 19.2px;
+}

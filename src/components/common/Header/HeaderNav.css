@@ -1,0 +1,89 @@
+.nav-glass {
+    background-color: rgba(29, 29, 29, 0.79);
+    -moz-box-shadow: 0 0 10px #1d1d1db0;
+    -webkit-box-shadow: 0 0 10px#1d1d1db0;
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.79);
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-thin {
+    height: 75px;
+}
+
+.nav-actions {
+    justify-content: flex-end !important;
+}
+
+.nav-actions.right {
+    justify-content: flex-end !important;
+}
+
+.nav-actions.left {
+    justify-content: flex-start !important;
+}
+
+.nav-actions>.nav-action-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.notificationDiv {
+    /* position: absolute;
+    right: 288px;
+    display:inline-block; */
+}
+
+.navbaricon-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(173, 33, 35);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbaricon {
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: .9;
+    -webkit-transition: all .3s;
+    /* Safari */
+    transition: all .3s;
+}
+
+.navbaricon:hover {
+    opacity: 1;
+}
+
+.navbaricon .rotate {
+    font-weight: bold;
+    font-size: 2.5rem !important;
+}
+
+.navbaricon:hover {
+    background-color: #00000036;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbaricon a {
+    cursor: pointer;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+}
+
+.navbaricon a,
+.navbaricon i {
+    color: transparent !important;
+}

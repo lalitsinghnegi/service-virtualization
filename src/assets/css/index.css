@@ -1,0 +1,312 @@
+#root,
+body,
+html {
+  height: 100% !important;
+}
+
+body {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: TelstraAkkuratWeb-Regular, sans-serif !important;
+  /* background-color: #FFF !important; */
+}
+
+/* NOTE: If there are any more libraries that add divs at the bottom of body upon activation, excluded them here! */
+body > div:last-child:not(.swal2-container) {
+  position: unset;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.root {
+  position: inherit !important;
+}
+
+.container-fluid {
+  padding-bottom: 20px;
+}
+
+.icon-clip {
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
+}
+
+.dataview-header a > .fa {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.dataview-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4em;
+  margin: 10px;
+}
+
+.dataview-header span {
+  display: flex;
+  align-items: center;
+}
+
+.dataview-product {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.dataview-header .mainIcon {
+  font-size: 4rem;
+}
+
+.dataview-header .td-icon-md.mainIcon {
+  font-size: 5rem;
+}
+
+.dataview-header a > .fa:hover {
+  opacity: 1;
+}
+
+.dataview-header .sub-leader {
+  font-size: 32px;
+}
+
+.card-columns .card {
+  margin-top: 12px !important;
+  border: none !important;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+    column-count: 1 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+    column-count: 2 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+    column-count: 3 !important;
+  }
+}
+
+tr .table {
+  background-color: transparent !important;
+}
+
+td .table {
+  background-color: transparent !important;
+}
+
+.table td {
+  vertical-align: middle !important;
+}
+
+tr .table.left {
+  margin-left: 10px !important;
+}
+
+tr.row-hover:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+}
+
+.collapse {
+  max-height: none !important;
+}
+
+.dropdown-toggle::before {
+  display: none !important;
+}
+
+#productEditButton {
+  width: calc(100% - 12px);
+  padding-top: 4px;
+  padding-bottom: 2px;
+}
+
+.productSelected {
+  font-size: large;
+  margin-left: 50px;
+}
+
+.s2pProductRow {
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+
+.producttable #product-modal {
+  max-width: "50vw";
+}
+
+.product-modal2 {
+  max-width: "50vw";
+}
+
+#cidn-input input[readonly] {
+  background-color: lightgray;
+}
+
+#adbor-fnn-table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+
+  background-color: rgba(211, 211, 211, 0.18);
+  border-radius: 10px;
+}
+
+#adbor-fnn-table tr:hover {
+  /* background-color: lightyellow; */
+  cursor: pointer;
+}
+
+#product-table-header {
+  padding-bottom: 15px;
+}
+
+#product-input-header {
+  padding-bottom: 13px;
+}
+
+#adbor-fnn-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  /* background-color:rgba(1, 153, 0, 0.5); */
+}
+
+/* #adbor-fnn-table td ::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    z-index: 10000;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: left;
+    vertical-align: auto;
+    border-top: 3px solid rgb(163, 163, 163);
+} */
+
+#adbor-fnn-table td {
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: left;
+  vertical-align: auto;
+  /* border-top: 3px solid rgb(163, 163, 163); */
+}
+
+#adbor-fnn-table thead {
+  border-bottom: 0px;
+}
+
+#product-table-col {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#product-input-table-col {
+  padding-left: 5px;
+}
+
+#adbor input {
+  width: 165px;
+  height: 34px;
+}
+
+#fnn input {
+  width: 165px;
+  height: 34px;
+}
+
+.product-header {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+#select-quantity {
+  height: 30px;
+  padding: 0rem 1rem;
+  width: 50px;
+  height: auto;
+}
+
+#qty-dropdown {
+  position: absolute;
+}
+
+.tile-box {
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: sticky;
+}
+
+.tiles-grid.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button.resultTile:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.resultTile:hover {
+  cursor: default;
+}
+
+.hoverMe:hover {
+  cursor: pointer;
+}
+
+.ssp-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.asterisk:after {
+  content:"*";
+  color:red;
+}
+.h7 {
+  display: block;
+  font-size: .8em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.swal2-container {
+  z-index: 100000 !important;
+}

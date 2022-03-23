@@ -1,0 +1,19 @@
+.card.dashboard > #content {
+  /* -moz-box-shadow: 0 0 10px #ffffffd6;
+    -webkit-box-shadow: 0 0 10px#ffffffd6;
+    box-shadow: 0 0 10px #ffffffd6; */
+  padding: 30px;
+}
+
+.card.dashboard {
+  border-radius: 0px;
+  background-color: #ffffffec;
+}
+
+.health-label{
+  font-size: 20px;
+}
+
+.tooltip-inner{
+  text-align: left;
+}

@@ -1,0 +1,30 @@
+.form-signin {
+    width: 100%;
+    max-width: 30vw;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .form-signin .label {
+    float: left;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 16px;
+  }
+
+  .form-register {
+    width: 100%;
+    max-width: 40vw;
+    padding: 15px;
+    margin: 0 auto;
+  }
+ 
+  .form-register .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+  }

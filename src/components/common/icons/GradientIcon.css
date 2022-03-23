@@ -1,0 +1,12 @@
+.gradient-icon .clip, .gradient-icon i {
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+}
+
+.gradient-icon .clip a, .gradient-icon .clip i {
+    color: transparent !important;
+}
+
+.gradient-icon .fa {
+    display: block;
+}

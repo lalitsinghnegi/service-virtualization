@@ -1,0 +1,21 @@
+.card.dashboard {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
+  transform: translateZ(0);
+  -webkit-font-smoothing: antialiased !important;
+  height: 100%;
+}
+
+.card.dashboard .card-top-ribbon {
+  width: 100%;
+  height: 4px;
+  -webkit-animation: Gradient 2s ease infinite !important;
+  -moz-animation: Gradient 2s ease infinite !important;
+  animation: Gradient 2s ease infinite !important;
+  background-size: 100% 100% !important;
+}
+
+.card.dashboard:hover .card-top-ribbon {
+  background-size: 200% 200% !important;
+}
